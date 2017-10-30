@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NFC门禁卡</string>
+
+    <string name="card_title">我的门禁卡</string>
+    <string name="init_nfc">NFC初始化</string>
+    <string name="read_card_info">读取卡号</string>
+    <string name="imitate_card">模拟卡号</string>
+
+</resources>

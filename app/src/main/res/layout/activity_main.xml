@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/init_nfc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/init_nfc" />
+
+    <Button
+        android:id="@+id/read_card_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/read_card_info" />
+
+    <Button
+        android:id="@+id/imitate_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/imitate_card" />
+
+    <ListView
+        android:id="@+id/nfc_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" />
+
+</LinearLayout>
